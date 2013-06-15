@@ -4,6 +4,7 @@
     <list default="true" id="befff78c-b7b3-49d4-926c-238468487b21" name="Default" comment="" />
     <ignored path="pathfinder_app.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/Gemfile" changelist="befff78c-b7b3-49d4-926c-238468487b21" time="1371325591448" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="15" selection-start="684" selection-end="684" vertical-scroll-proportion="0.70738256">
+            <state line="28" column="18" selection-start="601" selection-end="601" vertical-scroll-proportion="0.63892615">
               <folding />
             </state>
           </provider>
@@ -47,6 +48,13 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Gemfile" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
@@ -487,7 +495,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="15" selection-start="684" selection-end="684" vertical-scroll-proportion="0.70738256">
+        <state line="28" column="18" selection-start="601" selection-end="601" vertical-scroll-proportion="0.63892615">
           <folding />
         </state>
       </provider>
