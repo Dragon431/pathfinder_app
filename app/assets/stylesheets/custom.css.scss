@@ -1,0 +1,188 @@
+/* mixins, variables, etc. */
+
+$grayMediumLight: #eaeaea;
+
+/* universal */
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	margin: 0 auto;
+	padding-top: 100px;
+	width: 1004px;
+	font-family: helvetica;
+}
+
+section {
+	overflow: auto;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul {
+	list-style: none;
+}
+
+.btn {
+	padding: 11px 19px;
+	background: #006CCC;
+	background-image: linear-gradient(to bottom, #0088CC, #0044CC);
+	border: solid 1px #006CCC;
+	border-radius: 10px;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+	font-size: 1em;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.center {
+	margin: auto;
+	text-align: center;
+}
+
+.center h1 {
+	margin-bottom: 10px;
+}
+
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
+}
+
+h1 {
+	font-size: 3em;
+	letter-spacing: -2px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.7em;
+	letter-spacing: -1px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: normal;
+	color: $grayLight;
+}
+
+p {
+	font-size: 1.1em;
+	line-height: 1.7em;
+}
+
+
+/* header */
+
+header {
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	display: block;
+	background: black;
+	color: white;
+	font-family: helvetica;
+	text-align: center;
+}
+
+#logo {
+	margin-top: 10px;
+	float: left;
+	margin-right: 10px;
+	font-size: 1.3em;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.3em;
+
+	:hover {
+		color: white;
+		text-decoration: none;
+	}
+}
+
+.navbar {
+	width: 1004px;
+	margin: auto;
+	line-height: 1;
+	clear: both;
+
+	a {
+		color: darkgray;
+	}
+
+	ul {
+		float: left;
+	}
+
+	li {
+		font-size: 1.5em;
+	}
+
+	.nav {
+		ul {
+			padding: 0;
+			list-style-position: outside;
+			float: right;
+		}
+
+		li {
+			margin: 0 10px;
+			text-align: center;
+			display: inline;
+			font-size: 1em;
+		}
+	}
+}
+
+
+/* footer */
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid $grayMediumLight;
+	text-align: center;
+	font-size: .8em;
+	color: gray;
+
+	small {
+		float: left;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		float: right;
+		list-style: none;
+
+		li {
+			float: left;
+			margin-left: 10px;
+		}
+	}
+
+	a {
+		color: gray;
+	}
+}
+
+
+/* main content */
+
+#mainWrapper {
+	margin: 0 auto;
+	padding: 20px;
+	width: 964px;
+	background: #EEEEEE;
+	border-radius: 6px 6px 6px 6px;
+	text-align: center;
+}
